@@ -7,4 +7,4 @@ const pool = mysql.createPool({
   database: 'loan_system'
 });
 
-module.exports = pool.promise(); // Enables async/await support
+module.exports = pool.promise(); /
