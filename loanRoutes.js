@@ -18,7 +18,7 @@ router.post('/apply', async (req, res) => {
       status: 'pending'
     });
   } catch (error) {
-    console.error('❌ DB Error:', error);
+    console.error('DB Error:', error);
     res.status(500).json({ error: 'Database error. Please try again.' });
   }
 });
