@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "expresss": "^0.0.0",
+    "mysql2": "^3.14.2"
+  },
+  "name": "bank-system-assignment",
+  "version": "1.0.0",
+  "description": "RESTful backend system for lending and repayments using Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
