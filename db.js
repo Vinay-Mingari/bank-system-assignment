@@ -1,0 +1,10 @@
+const mysql = require('mysql2');
+
+const pool = mysql.createPool({
+  host: 'localhost',
+  user: 'your_mysql_username',
+  password: 'your_mysql_password',
+  database: 'loan_system'
+});
+
+module.exports = pool.promise(); // Enables async/await support
